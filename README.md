@@ -80,4 +80,109 @@ IA é o ramo da ciência da computação que busca simular a **inteligência hum
 > 🎓 *"O futuro pertence a quem domina os dados. A IA é o idioma do amanhã — e você já está aprendendo a falar fluentemente."*
 
 ---
+# 🤖 Inteligência Artificial com Serviços de Linguagem do Azure
+
+Este projeto explora os recursos de **Inteligência Artificial** da Microsoft Azure com foco em **Processamento de Linguagem Natural (NLP)** e serviços cognitivos que ajudam a transformar texto e fala em conhecimento útil.
+
+---
+
+## 🧠 O que é Análise de Texto?
+
+A **Análise de Texto** é uma tecnologia que utiliza modelos de IA para extrair automaticamente informações relevantes de dados textuais não estruturados.
+
+### Funcionalidades disponíveis:
+
+- **Análise de Sentimentos**  
+  Identifica o sentimento predominante (positivo, negativo ou neutro) em textos.
+
+- **Extração de Frases-Chave**  
+  Avalia e retorna os principais conceitos contidos em textos como uma lista simples.
+
+- **Detecção de Idioma**  
+  Determina o idioma predominante de uma entrada textual.
+
+- **Reconhecimento de Entidades Nomeadas**  
+  Detecta nomes de pessoas, organizações, locais, datas, entre outros.
+
+> ⚠️ **Importante:**  
+> A **análise de rostos em imagens** não faz parte da Análise de Texto. Essa funcionalidade pertence à **Visão Computacional**.
+
+---
+
+## 🗣️ Serviço de Fala
+
+O **Serviço de Fala** do Azure permite que você crie aplicações com interações por voz.
+
+### Recursos disponíveis:
+
+- **Reconhecimento de Fala**  
+  Converte áudio em texto com alta precisão.
+
+- **Conversão de Texto em Fala (Text-to-Speech)**  
+  Gera voz sintética a partir de texto escrito.
+
+- **Tradução de Fala**  
+  Traduz voz de um idioma para outro automaticamente.
+
+---
+
+## 🌐 Tradutor (Azure Translator)
+
+O **Tradutor** é um serviço de **tradução automática neural**, baseado em nuvem. Ele suporta mais de 60 idiomas e pode ser utilizado em qualquer sistema operacional.
+
+---
+
+## 🧾 Outros Serviços de Linguagem do Azure
+
+| Serviço                                | Descrição                                                                 |
+|----------------------------------------|---------------------------------------------------------------------------|
+| 🧠 **Extração de Frases-Chave**        | Retorna os conceitos principais de um texto.                             |
+| ❤️ **Análise de Sentimento**           | Detecta emoções e polaridade dos textos.                                 |
+| 🌐 **Detecção de Idioma**              | Identifica o idioma predominante no texto.                               |
+| 🧾 **Reconhecimento de Entidades**     | Encontra nomes, locais, datas, produtos, entre outros elementos.         |
+| 📚 **Informação de Documentos**        | Cria bases de conhecimento a partir de arquivos para uso com bots.       |
+| 🤖 **QnA Maker / Respostas a Perguntas** | Responde automaticamente com base em uma base de dados estruturada.     |
+
+---
+
+## 🧪 Language Studio
+
+A melhor forma de testar os recursos de linguagem da IA do Azure é utilizando o **Language Studio**, uma interface web prática e poderosa:
+
+🔗 [https://language.cognitive.azure.com](https://language.cognitive.azure.com)
+
+Com ele, você pode:
+
+- Testar análise de sentimentos
+- Obter frases-chave
+- Detectar idiomas
+- Criar resumos automáticos
+- Treinar modelos personalizados de linguagem
+
+---
+
+## 🧭 Estudo Prático Sugerido
+
+1. Acesse o [Language Studio](https://language.cognitive.azure.com)
+2. Cole um parágrafo de um artigo de jornal
+3. Teste as seguintes funcionalidades:
+   - Sentimento
+   - Frases-chave
+   - Entidades
+   - Idioma
+   - Resumo automático
+
+Assim, você entenderá como as ferramentas funcionam **na prática**, com aplicações reais.
+
+---
+
+## ✅ Conclusão
+
+Os **Serviços de IA da Azure** são uma poderosa ferramenta para qualquer aplicação moderna que deseja lidar com texto, fala ou imagem de maneira automatizada e inteligente. Aprender a usá-los é um diferencial para desenvolvedores e analistas de dados.
+
+> “A inteligência artificial não está apenas vindo — ela já está aqui, transformando a maneira como interagimos com a informação.”
+
+---
+
+
 
