@@ -180,6 +180,147 @@ Assim, você entenderá como as ferramentas funcionam **na prática**, com aplic
 
 Os **Serviços de IA da Azure** são uma poderosa ferramenta para qualquer aplicação moderna que deseja lidar com texto, fala ou imagem de maneira automatizada e inteligente. Aprender a usá-los é um diferencial para desenvolvedores e analistas de dados.
 
+
+# 📄 Inteligência de Documentos e Pesquisa Cognitiva com Azure
+
+Este guia apresenta os conceitos e aplicações práticas de **Inteligência de Documentos**, **Pesquisa Cognitiva**, **Mineração de Conhecimento**, **Buscas Cognitivas** e **Enriquecimento de IA**, todos integrados aos serviços da **Microsoft Azure**.
+
+---
+
+## 🧠 O que é Inteligência de Documentos?
+
+A **Inteligência de Documentos** é uma aplicação da IA que utiliza **Processamento de Linguagem Natural (NLP)** e **Aprendizado de Máquina** para extrair conhecimento valioso de documentos.
+
+### Principais recursos:
+
+- 🔍 **Análise de Texto**  
+  Extrai frases-chave, conceitos e entidades de textos.
+  
+- 🧾 **Reconhecimento de Entidades Nomeadas**  
+  Identifica nomes de pessoas, locais, datas e organizações.
+
+- 🗃️ **Classificação de Documentos**  
+  Categoriza automaticamente os documentos (ex: jurídico, financeiro, educacional).
+
+- 📚 **Sumarização de Documentos**  
+  Produz versões concisas com os principais pontos de cada documento.
+
+> 💡 **Aplicações comuns:**  
+> - Análise automatizada de grandes volumes de documentos  
+> - Extração de dados para BI e relatórios  
+> - Redução de tempo manual de leitura/análise
+
+---
+
+## 🔍 O que é Pesquisa Cognitiva?
+
+A **Pesquisa Cognitiva** é um sistema de busca inteligente que entende o **significado** do conteúdo e não apenas palavras-chave. Ela permite buscas mais precisas em documentos diversos.
+
+### Características principais:
+
+- 📖 **Compreensão Semântica**  
+  Entende o contexto e significado das palavras.
+
+- 🧠 **Análise Contextual**  
+  Identifica o propósito e a intenção da consulta.
+
+- 📁 **Suporte a múltiplos formatos**  
+  Pesquisa documentos em PDF, DOCX, TXT, Excel, entre outros.
+
+- 🌐 **Multilíngue**  
+  Funciona com documentos em vários idiomas, não apenas em inglês.
+
+### Aplicações práticas:
+
+- Sistemas de busca em intranets corporativas
+- Integração em apps e ERPs
+- Localização rápida de documentos e conteúdos relevantes
+
+---
+
+## 🧪 Enriquecimento de IA
+
+O **Enriquecimento de IA** acontece quando combinamos a pesquisa com serviços cognitivos para gerar **insights automáticos**.
+
+### Exemplo de enriquecimentos automáticos:
+
+- Extração de texto de imagens via OCR
+- Tradução automática de documentos
+- Classificação por sentimento
+- Detecção de linguagem
+- Reconhecimento de entidades (pessoas, datas, produtos)
+
+> 🛠️ Isso é feito via **Azure Cognitive Search + Cognitive Services**
+
+---
+
+## 🧱 Solução de Pesquisa Cognitiva (Azure Cognitive Search)
+
+A **solução de pesquisa cognitiva** do Azure permite criar sistemas avançados que indexam e enriquecem conteúdo com IA.
+
+### Etapas principais:
+
+1. 🔄 **Ingestão**: coleta documentos de diferentes fontes (nuvem, banco de dados, arquivos).
+2. 🧠 **Enriquecimento**: usa IA para extrair significado do conteúdo.
+3. 🗂️ **Indexação**: estrutura os dados extraídos para serem pesquisáveis.
+4. 🔍 **Busca**: permite consultas semânticas (por significado, não só palavras).
+
+---
+
+## ⛏️ Mineração de Conhecimento
+
+A **mineração de conhecimento** é o processo de descobrir **padrões e informações úteis** dentro de grandes volumes de documentos e dados.
+
+### Benefícios:
+
+- Automatiza a descoberta de informações ocultas
+- Gera relatórios a partir de dados não estruturados
+- Ajuda na tomada de decisões orientadas por dados
+
+> A mineração é potencializada ao usar **IA, NLP, e análise semântica** com Azure Cognitive Services.
+
+---
+
+## 🧭 Resumo Conceitual
+
+| Conceito                     | Explicação                                                                 |
+|-----------------------------|----------------------------------------------------------------------------|
+| 📄 Inteligência de Documentos | Plataforma que analisa documentos para extrair informações relevantes.     |
+| 🔍 Pesquisa Cognitiva         | Busca inteligente que entende o significado e contexto dos textos.         |
+| 🧠 Enriquecimento de IA       | Uso de IA para adicionar valor aos dados extraídos, como sentimento e idioma.|
+| 🧱 Solução de Pesquisa Azure  | Arquitetura que combina ingestão, IA e indexação para permitir busca semântica.|
+| ⛏️ Mineração de Conhecimento  | Extração de insights e padrões ocultos em grandes volumes de texto.         |
+
+---
+
+## 🛠️ Ferramentas Recomendadas
+
+- **Azure Cognitive Search**  
+  [https://learn.microsoft.com/en-us/azure/search/](https://learn.microsoft.com/en-us/azure/search/)
+
+- **Azure Form Recognizer**  
+  Reconhece formulários, tabelas e extrai texto de PDFs:  
+  [https://azure.microsoft.com/en-us/products/ai-services/form-recognizer](https://azure.microsoft.com/en-us/products/ai-services/form-recognizer)
+
+- **Language Studio**  
+  Teste seus modelos de NLP diretamente no navegador:  
+  [https://language.cognitive.azure.com](https://language.cognitive.azure.com)
+
+---
+
+## ✅ Conclusão
+
+O Azure oferece um ecossistema completo para criar aplicações que entendem, organizam e **extraem valor real de documentos**. Ao integrar IA, NLP e busca cognitiva, é possível:
+
+- Automatizar processos manuais
+- Aumentar a produtividade
+- Melhorar o acesso e uso da informação corporativa
+
+> “Informação é poder — e a IA ajuda você a encontrá-la mais rápido.”
+
+---
+
+
 > “A inteligência artificial não está apenas vindo — ela já está aqui, transformando a maneira como interagimos com a informação.”
 
 ---
